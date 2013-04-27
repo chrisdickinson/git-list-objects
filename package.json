@@ -1,6 +1,6 @@
 {
   "name": "git-list-objects",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "list all git objects (in recency order)",
   "main": "index.js",
   "scripts": {
