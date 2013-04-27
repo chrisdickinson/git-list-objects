@@ -1,0 +1,25 @@
+{
+  "name": "git-list-objects",
+  "version": "0.0.0",
+  "description": "list all git objects (in recency order)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/git-list-objects.git"
+  },
+  "keywords": [
+    "git",
+    "list",
+    "objects"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "dependencies": {
+    "git-walk-tree": "0.0.2",
+    "through": "~2.2.7",
+    "git-walk-refs": "0.0.1"
+  }
+}
