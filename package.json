@@ -20,6 +20,7 @@
   "dependencies": {
     "git-walk-tree": "0.0.2",
     "through": "~2.2.7",
-    "git-walk-refs": "0.0.1"
+    "git-walk-refs": "0.0.1",
+    "emit-function": "0.0.2"
   }
 }
