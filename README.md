@@ -9,7 +9,7 @@ var list = require('git-list-objects')
   , open = require('git-fs-repo')
 
 open('path/to/.git', function(err, repo) {
-  var hashes = repo.refs.map(function(x) {
+  var hashes = repo.refs().map(function(x) {
     return x.hash
   })
 
